@@ -1,0 +1,127 @@
+/* Write your CSS here */
+
+.App-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Welcome-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 80%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.account-holder-name {
+  margin-left: 30px;
+  font-family: Roboto;
+  color: #334155;
+}
+
+.Greeting {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+  color: #7e858e;
+  font-weight: 500;
+}
+
+.money-manager {
+  font-family: Roboto;
+  color: #0b69ff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Transaction-Container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .Transaction-Container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+}
+
+.Transaction-inputs-container {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #cbd5e1;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .Transaction-inputs-container {
+    width: 35%;
+    height: auto;
+  }
+}
+
+.History-container {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #cbd5e1;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .History-container {
+    width: 60%;
+    height: auto;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Title {
+  padding: 10px;
+  border: 1px solid #7e858e;
+  border-radius: 4px;
+  margin-top: 3px;
+  margin-bottom: 12px;
+}
+
+.Amount {
+  padding: 10px;
+  border: 1px solid #7e858e;
+  border-radius: 4px;
+  margin-top: 3px;
+  margin-bottom: 12px;
+}
+
+.Type {
+  padding: 10px;
+  border: 1px solid #7e858e;
+  border-radius: 4px;
+  margin-top: 3px;
+  margin-bottom: 12px;
+}
+
+.add-btn {
+  width: 80px;
+  padding: 6px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #0b69ff;
+}
